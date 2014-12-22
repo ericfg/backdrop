@@ -524,7 +524,7 @@ function update_manager_install_form($form, &$form_state, $context) {
   $form['project_url'] = array(
     '#type' => 'url',
     '#title' => t('Install from a URL'),
-    '#description' => t('For example: %url', array('%url' => 'http://ftp.drupal.org/files/projects/name.tar.gz')),
+    '#description' => t('For example: %url', array('%url' => 'http://example.org/file_name.tar.gz')),
   );
 
   $form['information'] = array(
